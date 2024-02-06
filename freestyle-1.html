@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head> 
+        <title>Freestyle HTML</title>
+        <meta charset="utf-8">
+        <style>
+            video {
+                max-width: 100%;
+                max-height: 100vh;
+            }
+            img {
+                max-width: 100%;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+
+    <body> 
+
+        <h1>Freestyle HTML 😎</h1>
+        <h2>Freestyle h2</h2>
+        <h3>Freestyle h3</h3>
+        <h4>Freestyle h4</h4>
+        <h5>Freestyle h5</h5>
+        <h6>Freestyle h6</h6>
+    
+
+        <section>
+            <h2>This is a new section</h2>
+            <p> paragraph paragraph paragraph paragraph i will break the line here <br> this is a paragraph </p>
+        </section>
+
+
+        <label>This is a datalist</label><br>
+        <input list="autocomplete" placeholder="Type Banana">
+
+        <datalist id="autocomplete">
+            <option value="B">
+            <option value="Ba">
+            <option value="Ban">
+            <option value="Bana">
+            <option value="Banan">
+            <option value="Banana">
+        </datalist>
+        <br>
+
+        <hr>
+
+        <br>
+        <div>
+            Last Friday was Groundhog Day! Check out <a href="https://youtu.be/JO_uLPBYMl8?si=64ihduyOCBGEsVdQ">this video</a>! <br>Also embedded below ⬇️ ⬇️
+        </div>
+
+        <embed src="https://www.youtube.com/embed/JO_uLPBYMl8?si=2dPQu0Tjmkzs4t_C" width="400" height="300">
+
+        <figure>
+            <img src="images/groundhog.png" alt="Image of a groundhog held up in the sky" width="200">
+            <figcaption>This is Punxsutawney Phil</figcaption>
+        </figure>
+
+        <details>
+            <summary>Did Phil see his shadow this year?</summary>
+            No!
+
+            <details>
+                <summary>What does that predict?</summary>
+                Early Spring 🌱
+            </details>
+        </details>
+        <br>
+
+        <hr>
+
+        <br>
+        <div>You can also include a webpage within the site:</div>
+        <iframe src="https://veryinteractive.net/ultralight/#">
+            Fallback text for non-supported browsers
+        </iframe>
+
+        <br>
+
+        <button>
+            Go!
+        </button>
+        <br>
+
+        <br>
+        <table>
+            <caption>Table</caption>
+            <tr>
+              <td>Earth</td>
+              <td>Water</td>
+            </tr>
+            <tr>
+              <td>Air</td>
+              <td>Fire</td>
+            </tr>
+        </table>
+
+        <br>
+        <div>Enter your first and last name</div>
+        <form oninput="c.value = a.value + b.value">
+            <input type="text" name="a" value="First">
+            +
+            <input type="text" name="b" value=" Last">
+            =
+            <output name="c">First Last</output>
+        </form>
+
+
+        <br>
+        <div>4 years at Princeton:</div>
+        <progress value="1">Progress</progress>
+        <label>Freshman</label><br>
+        <progress value="1">Progress</progress>
+        <label>Sophomore</label><br>
+        <progress value="1">Progress</progress>
+        <label>Junior</label><br>
+        <progress value="0.5">Progress</progress>
+        <label>Senior</label>
+        <br> 
+
+        <form action="/signup" method="post">
+            <p>
+                <label>Email</label><br>
+                <input type="email" name="email" placeholder="name@gmail.com" required>
+            </p>
+            <p>
+                <button> Submit </button>
+                <button type="reset">Reset form</button>
+            </p>
+        </form>
+
+
+    </body>
+
+
+</html>
